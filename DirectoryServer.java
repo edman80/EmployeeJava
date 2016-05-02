@@ -70,6 +70,7 @@ public class DirectoryServer {
 					days = commandStream.next();
 					Employee temp = new Parttime(position, firstName, lastName, eid, hourly, days);
 				}
+				System.out.println("Employee has been amended to the directory: " + dir.dir[dir.dirSize].toString());
 				}
 			}
 			System.out.println("Please enter a command: find, add, delete: ");
